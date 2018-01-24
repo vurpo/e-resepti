@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Nutella Powder",
+    "ingredients": [
+      {
+        "name": "Nutella",
+        "amount": 60,
+        "unit": "grams"
+      },
+      {
+        "name": "Tapioca Maltodextrin Powder",
+        "amount": 40,
+        "unit": "grams"
+      }
+    ],
+    "instructions": "Weigh the stuff. Mix it together. Blend it. Enjoy!"
+  },
+    {
+    "name": "Bittman Chinese Chicken With Bok Choy",
+    "ingredients": [
+      {
+        "name": "Chicken Breast",
+        "amount": 2,
+        "unit": "units"
+      },
+      {
+        "name": "Bok Choy",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "Sauce",
+        "amount": 1,
+        "unit": "deciliters"
+      }
+    ],
+    "instructions": "Make sauce. Steam bok choy and chicken. Carry on steaming. Pour sauce over."
+  },
+  {
+    "name": "Brogrammer's Dream",
+    "ingredients": [
+      {
+        "name": "Pizza",
+        "amount": 1,
+        "unit": "units"
+      }
+    ],
+    "instructions": "Order a pizza, delivered. Preferably your favorite. Eat it."
+  }
+]
