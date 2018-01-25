@@ -6,9 +6,7 @@ class RecipeBook:
     """Create a RecipeBook from a list deserialized from a JSON array"""
     @classmethod
     def from_json_list(cls, recipebook):
-        recipes = []
-        for recipe in recipebook:
-            recipes.append(Recipe.from_json_dict(recipe))
+        recipes = [Recipe.from_json_dict(recipe) for recipe in recipebook]
         return cls(recipes)
 
     """Return a list that represents the JSON representation of the recipe book"""
