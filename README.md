@@ -29,7 +29,7 @@ Prints out a recipe, formatted for reading.
 
 ### `add`
 
-Read a recipe in JSON format (see below) and add it to the recipe book.
+Read a recipe in JSON format (see below) from stdin and add it to the recipe book.
 
 Hint: if you want to type the JSON at the terminal, you can do the following:
 
