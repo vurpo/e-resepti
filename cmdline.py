@@ -1,12 +1,12 @@
-import models
-import sys
-import json
-
 """
 This module contains all the command-line interface -specific functions.
 All functions take the parameter "recipebook", which is an instance of a RecipeBook to work with.
 The command functions return a string, which is what to print out to the command line as a response.
 """
+
+import models
+import sys
+import json
 
 def recipelist(recipebook):
     """

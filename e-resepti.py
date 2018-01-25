@@ -1,13 +1,13 @@
+"""
+This application is a recipe management application with a command-line interface,
+and a REST interface. Both interfaces are documented in the file README.md.
+"""
+
 from flask import Flask, Response, abort, request
 import models
 import cmdline
 import json
 import os,sys
-
-"""
-This application is a recipe management application with a command-line interface,
-and a REST interface. Both interfaces are documented in the file README.md.
-"""
 
 app = Flask(__name__)
 
